@@ -1,0 +1,10 @@
+[submodule "openvpn"]
+	path = openvpn
+	url = https://github.com/OpenVPN/openvpn.git
+	branch = d90249f73353c175ed9e7dd0a450cd084a729e20
+
+[submodule "easy-rsa"]
+	path = easy-rsa
+	url = https://github.com/OpenVPN/easy-rsa.git
+	branch = 5a429d22c78604c95813b457a8bea565a39793fa
+
