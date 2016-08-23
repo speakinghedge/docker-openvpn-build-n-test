@@ -1,7 +1,7 @@
 #!/bin/bash
 source ./env.sh
 
-git submodule update ${OPENVPN_SUBMODULE_PATH}
+git submodule update --init ${OPENVPN_SUBMODULE_PATH}
 
 docker_prepare
 

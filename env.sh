@@ -119,7 +119,7 @@ easy_rsa_clean()
 
 easy_rsa_prepare()
 {
-	git submodule update ${EASY_RSA_SUBMODULE_PATH}
+	git submodule update --init ${EASY_RSA_SUBMODULE_PATH}
 
 	if [ ! -d $EASY_RSA_KEY_DIR ] ; then
 		echo "*** init pki"
